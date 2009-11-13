@@ -1,2 +1,0 @@
-Install the base set of gems 
-%> jruby -S rake gems:install
