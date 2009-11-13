@@ -1,0 +1,19 @@
+== Gems for JRuby on Rails
+
+Gems:
+activerecord-jbdc-adapter, :version => '0.9.1'
+activerecord-jbdcmysql-adapter, :version => "0.9.1"  
+jbdc-mysql, :version => "5.0.4"
+jruby-openssl, :version => "0.5.2"
+json-jruby, :version => "1.1.6"
+json_pure, :version => "1.1.6"
+mongrel, :version => '1.1.5'
+capistrano
+capistrano-ext, :version => "1.2.1"
+engineyard-eycap, :version => "0.4.15"
+hpricot, :version => "0.6.164"
+
+Install by running:
+
+%> jruby -S rake gems:install
+
