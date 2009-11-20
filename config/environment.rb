@@ -17,14 +17,12 @@ Rails::Initializer.run do |config|
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem "activerecord-jdbc-adapter", :version => '0.9.1'
   config.gem "activerecord-jdbcmysql-adapter", :version => "0.9.1"  
-  config.gem "jbdc-mysql", :version => "5.0.4"
   config.gem "jruby-openssl", :version => "0.5.2"
   config.gem "json-jruby", :version => "1.1.6"
   config.gem "json_pure", :version => "1.1.6"
   config.gem "mongrel", :version => '1.1.5'
   config.gem "capistrano"
   config.gem "capistrano-ext", :version => "1.2.1"
-  config.gem "engineyard-eycap", :version => "0.4.15"
   config.gem "hpricot", :version => "0.6.164"
 
 
