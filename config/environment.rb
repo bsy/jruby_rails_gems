@@ -15,8 +15,8 @@ Rails::Initializer.run do |config|
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
   # Specify gems that this application depends on and have them installed with rake gems:install
-  config.gem "activerecord-jbdc-adapter", :version => '0.9.1'
-  config.gem "activerecord-jbdcmysql-adapter", :version => "0.9.1"  
+  config.gem "activerecord-jdbc-adapter", :version => '0.9.1'
+  config.gem "activerecord-jdbcmysql-adapter", :version => "0.9.1"  
   config.gem "jbdc-mysql", :version => "5.0.4"
   config.gem "jruby-openssl", :version => "0.5.2"
   config.gem "json-jruby", :version => "1.1.6"
